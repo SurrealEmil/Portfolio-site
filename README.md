@@ -1,7 +1,19 @@
-# Portfolio
+# School Portfolio Project
 
-This Is a school project where we build oure own portfolio website from scratch.
-<br>
-Small problem the website looks good and works as I want It to In Live preview and on Go Live but in github pages index.html to the other links work and back but from example projects.html to cv.html I get a 404 error
-<br>
-Also weblayout that also worked in Live preview and on Go Live, now stopped working.
+This project involves the creation of a personal portfolio website from scratch.
+
+## Overview:
+
+The portfolio website showcases various projects and serves as a platform to demonstrate skills and achievements. It was designed to be visually appealing and fully functional.
+
+## Issue Encountered:
+
+While the website looks and operates as intended in the live preview and on Go Live on VS Code, On GitHub Pages, some issues have been observed:
+
+    404 Error: Navigation between certain pages, such as from projects.html to cv.html, results in a 404 error.
+    This issue needs to be investigated and resolved to ensure smooth navigation across all pages.
+
+    Layout Problem: The web layout, which previously functioned correctly in the live preview and on the hosting platform, 
+    is now experiencing issues.
+
+Efforts are underway to identify the root causes of these issues and implement appropriate solutions to ensure the seamless functioning of the portfolio website.
