@@ -17,3 +17,11 @@ While the website looks and operates as intended in the live preview and on Go L
     is now experiencing issues.
 
 Efforts are underway to identify the root causes of these issues and implement appropriate solutions to ensure the seamless functioning of the portfolio website.
+
+## Update on Website Issues
+
+It appears that the issues with the website have resolved themselves, likely due to GitHub Pages needing additional time to settle in.
+
+## Will make a new update
+
+When i fix the 404 problem or If It fixes Itself with time i will make an other update.
