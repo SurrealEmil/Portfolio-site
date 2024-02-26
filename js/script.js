@@ -8,21 +8,29 @@ window.addEventListener('keyup', (e) => {
   }
 });
 
-let isEasterEggActive = false; // Variable to track the state of the Easter egg
+// Check if the Easter egg state is stored in local storage
+let isEasterEggActive = localStorage.getItem('isEasterEggActive') === 'true';
+
+// Update the background image based on the stored state
+if (isEasterEggActive) {
+    document.body.style.backgroundImage = 'url(https://picsum.photos/2560/1300)';
+}
 
 const eastereggLink = document.getElementById('easteregg1');
 
 eastereggLink.addEventListener('click', function(event) {
-    // Prevent default behavior of the link
     event.preventDefault();
 
     // Toggle the Easter egg state
     isEasterEggActive = !isEasterEggActive;
 
-    // Change the background image of the body based on the state
+    // Update the background image
     if (isEasterEggActive) {
-        document.body.style.backgroundImage = 'url(https://picsum.photos/2560/1200)'; // Using the provided URL
+        document.body.style.backgroundImage = 'url(https://picsum.photos/2560/1300)';
     } else {
-        document.body.style.backgroundImage = 'none'; // Revert to the default background
+        document.body.style.backgroundImage = 'none';
     }
+
+    // Store the Easter egg state in local storage
+    localStorage.setItem('isEasterEggActive', isEasterEggActive);
 });
