@@ -425,6 +425,9 @@ header a{
 }
 
 @media (max-width: 1000px) {
+    #project h1 {
+        margin-top: 1rem;
+    }
     .my-project {
         display: flex;
         flex-direction: column;
@@ -437,11 +440,67 @@ header a{
     }
 }
 /* Main-Lorem */
+#main-lorem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-lorem h1 {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10rem;
+    margin: 2rem 0;
+}
+
+.lorm {
+    max-width: 300px;
+    max-height: 400px;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5rem;
+    margin: 1rem; 
+}
+
+.lorm p {
+    text-align: center;
+}
+
+.lorem-1,
+.lorem-3 {
+    align-self: flex-start;
+    margin-left: 30%;
+}
+
+.lorem-2 {
+    align-self: flex-end;
+    margin-right: 30%;
+}
+
+@media (max-width: 650px) {
+    #main-lorem {
+        justify-content: initial;
+    }
+
+    .lorm p {
+        text-align: left; /* Reset text-align */
+    }
+
+    .lorem-1,
+    .lorem-3,
+    .lorem-2 {
+        align-self: initial; /* Reset align-self */
+        margin-left: 0; /* Reset margin-left */
+        margin-right: 0; /* Reset margin-right */
+    }
+}
 
 /* Footer */
 footer {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     background-color: #f0f0f0;
     text-align: center;
 }
