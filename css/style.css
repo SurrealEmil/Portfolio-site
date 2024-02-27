@@ -157,6 +157,7 @@ header a{
     padding: 1rem;
     border-radius: 5rem;
     margin-top: 1rem;
+    border: 2px solid black;
 }
 
 .title {
@@ -172,6 +173,15 @@ header a{
     display: flex;
     justify-content: space-evenly;
     width: 75px;
+    color: black;
+}
+
+#socials a i {
+    cursor: pointer;
+}
+
+#socials a:link i, #socials a:visited i {
+    color: black;
 }
 
 .icon {
@@ -234,6 +244,7 @@ header a{
     background-color: white;
     padding: 1rem;
     border-radius: 5rem;
+    border: 2px solid black;
 }
 .about-me {
     display: flex;
@@ -324,11 +335,13 @@ header a{
     margin-bottom: 1rem;
     background-color: white;
     border-radius: 5rem;
+    border: 2px solid black;
 }
 
 .experience-me {
     display: flex;
     max-width: 1000px;
+    border: 2px solid black;
 }
 
 .exp {
@@ -408,6 +421,7 @@ header a{
     padding: 2rem;
     background-color: white;
     border-radius: 5rem;
+    border: 2px solid black;
 }
 
 .link{
@@ -453,6 +467,7 @@ header a{
     padding: 2rem;
     border-radius: 10rem;
     margin: 2rem 0;
+    border: 2px solid black;
 }
 
 .lorm {
@@ -461,6 +476,7 @@ header a{
     padding: 2rem;
     background-color: white;
     border-radius: 5rem;
+    border: 2px solid black;
     margin: 1rem; 
 }
 
