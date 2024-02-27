@@ -485,15 +485,15 @@ header a{
     }
 
     .lorm p {
-        text-align: left; /* Reset text-align */
+        text-align: left;
     }
 
     .lorem-1,
     .lorem-3,
     .lorem-2 {
-        align-self: initial; /* Reset align-self */
-        margin-left: 0; /* Reset margin-left */
-        margin-right: 0; /* Reset margin-right */
+        align-self: initial;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
